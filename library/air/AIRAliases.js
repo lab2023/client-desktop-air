@@ -1,13 +1,4 @@
-/*!
- * Enhanced ExtJS Adapter for Adobe(r) AIR(r)
- * Copyright(c) 2006-2010 Sencha Inc.
- * licensing@extjs.com
- * http://www.extjs.com/license
- * 
- * @version 3.2.2
- * [For Use with ExtJS 3.1.0 to ExtJS 3.2.2]
- */
-/* AIRAliases.js - Revision: 2.0 */
+/* AIRAliases.js - Revision: 2.5 */
 
 /*
 ADOBE SYSTEMS INCORPORATED
