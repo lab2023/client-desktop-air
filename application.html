@@ -13,14 +13,19 @@
 
         <script type="text/javascript" src="/library/extjs/adapter/ext/ext-base-debug.js" ext:query="true"></script> 
         <script type="text/javascript" src="/library/extjs/ext-all-debug.js" ext:query="true"></script> 
-        <script type="text/javascript" src="/library/extair/ext-air-wo-xlayer-debug.js" ext:query="true"></script> 
+        <script type="text/javascript" src="/library/extair/ext-air-wo-xlayer-debug.js" ext:query="true"></script>
 
-        <link rel="stylesheet" type="text/css" href="/application/modules/main/theme/style.css" ext:query="true" />
+        <script type="text/javascript" src="/application/Bootstrap.js" ext:query="true"></script>
+        <script type="text/javascript" src="/application/controllers/IndexController.js" ext:query="true"></script>
+        <script type="text/javascript" src="/application/layouts/Layout.js" ext:query="true"></script>
+		<script type="text/javascript" src="/application/views/SignIn.js" ext:query="true"></script>
 
-        <script type="text/javascript" src="/system/application.js"></script>
-        
         <script type="text/javascript" ext:query="true"> 
             console = { log: air.Introspector ? air.Introspector.Console.log : function(){} };
+            Ext.onReady(function() {
+                bootstrap = new Bootstrap();
+                bootstrap.createApplication();
+            });
         </script>
     </head> 
     <body>
